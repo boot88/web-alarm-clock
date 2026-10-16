@@ -1,6 +1,6 @@
 # Web Alarm Clock — веб-будильник
 
-Приложение на Laravel для настройки будильников и напоминаний в браузере. Историческое название репозитория — `blog`; текущий код реализует будильники.
+Приложение на Laravel для настройки будильников и напоминаний в браузере.
 
 ## Возможности
 
@@ -32,8 +32,8 @@ PHP 8.2+, Laravel 12, Eloquent, Carbon, Blade, JavaScript и Vite.
 ## Локальный запуск
 
 ```bash
-git clone https://github.com/boot88/blog.git
-cd blog
+git clone https://github.com/boot88/web-alarm-clock.git
+cd web-alarm-clock
 composer install
 cp .env.example .env
 php artisan key:generate
